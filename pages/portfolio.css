@@ -37,8 +37,6 @@ body {
     color: #ca96e4;
 }
 
-
-
 .main {
     background-color: #80429E;
     border-radius: 20px;
@@ -97,4 +95,53 @@ footer a {
 
 footer a:hover {
     color: #ca96e4;
+}
+
+/*medium devices*/
+
+@media only screen and (max-width: 992px) {
+.navbar ul {
+    font-size: 25px;
+}
+
+.main {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+footer {
+    font-size: 15px;
+}
+}
+
+/*small devices*/
+
+@media only screen and (max-width: 768px) {
+
+.navbar ul {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+.img-grid {
+    margin: 25px;
+}
+
+.description-box {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 15px;
+}
 }

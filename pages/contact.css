@@ -48,7 +48,6 @@ ul li a:hover{
     padding: 40px;
     display: block;
     margin: 10px auto;
-    font-size: 20px;
 }
 
 h1 {
@@ -91,3 +90,37 @@ footer a:hover {
     color: #ca96e4;
 }
 
+/*medium devices*/
+
+@media only screen and (max-width: 992px) {
+.navbar ul {
+    font-size: 25px;
+}
+
+footer {
+    font-size: 15px;
+}
+}
+
+
+/*small devices*/
+
+@media only screen and (max-width: 768px) {
+
+.navbar ul {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.contact-link {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+}
+}

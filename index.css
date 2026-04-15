@@ -44,7 +44,6 @@ body {
     padding: 40px;
     display: block;
     margin: 10px auto;
-    font-size: 20px;
 }
 
 .main-title {
@@ -76,7 +75,7 @@ h2 {
 }
 
 .headshot {
-    margin: 0 20px 0 0;
+    margin: 25px 20px 0 0;
     border-radius: 50%;
 }
 
@@ -113,3 +112,74 @@ footer a:hover {
     color: #ca96e4;
 }
 
+/*medium devices*/
+
+@media only screen and (max-width: 992px) {
+.navbar ul {
+    font-size: 25px;
+}
+
+.main-title {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.main-text, .skills {
+    font-size: 20px;
+}
+
+.technical-skills {
+    font-size: 25px;
+}
+
+footer {
+    font-size: 15px;
+}
+}
+
+/*small devices*/
+
+@media only screen and (max-width: 768px) {
+
+.top-wrapper {
+    display: block;
+}
+
+.headshot {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.wrapper-bio {
+    padding-right: 0;
+}
+
+.navbar ul {
+    font-size: 20px;
+}
+
+.main-title {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+.main-text, .skills {
+    font-size: 20px;
+    text-align: left;
+}
+
+.technical-skills {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 15px;
+}
+}

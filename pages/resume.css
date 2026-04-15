@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: "Fira Sans", sans-serif;
     background: #A728C6;
@@ -65,3 +69,27 @@ footer a:hover {
     color: #ca96e4;
 }
 
+/*medium devices*/
+
+@media only screen and (max-width: 992px) {
+.navbar ul {
+    font-size: 25px;
+}
+
+footer {
+    font-size: 15px;
+}
+}
+
+/*small devices*/
+
+@media only screen and (max-width: 768px) {
+
+.navbar ul {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 15px;
+}
+}
